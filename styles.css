@@ -1,0 +1,88 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("/static/BGM.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  background-color: rgba(139, 69, 19, 0.6); /* Transparent brown background */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 80%;
+  margin: 20px auto;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.title h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title p {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 40px; /* Increased gap to move the viewer to the right */
+}
+
+#viewDiv {
+  width: 60%;
+  height: 70vh;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.539); /* Transparent white background */
+  margin-left: 70px;
+}
+
+.gas-info, .air-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#gasChart, #airChart {
+  width: 100px;
+  height: 100px;
+}
+
+.info-panel {
+  background-color: rgba(255, 255, 255, 0.557);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  color: #333;
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+.info-panel h3 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #007ACC;
+}
+
+.info-panel p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}

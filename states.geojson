@@ -1,0 +1,95 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.1025, 28.7041]
+      },
+      "properties": {
+        "state": "Delhi",
+        "real_time_temperature": "34°C",
+        "real_time_condition": "Rainy",
+        "real_time_duration": "9 hours",
+        "real_time_humidity": "46%",
+        "predicted_temperature": "37°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "12 hours",
+        "predicted_humidity": "52%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.7139, 19.7515]
+      },
+      "properties": {
+        "state": "Maharashtra",
+        "real_time_temperature": "32°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "3 hours",
+        "real_time_humidity": "64%",
+        "predicted_temperature": "35°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "40%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.3639, 22.5726]
+      },
+      "properties": {
+        "state": "West Bengal",
+        "real_time_temperature": "24°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "10 hours",
+        "real_time_humidity": "45%",
+        "predicted_temperature": "27°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "4 hours",
+        "predicted_humidity": "41%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.5946, 12.9716]
+      },
+      "properties": {
+        "state": "Karnataka",
+        "real_time_temperature": "26°C",
+        "real_time_condition": "Windy",
+        "real_time_duration": "4 hours",
+        "real_time_humidity": "54%",
+        "predicted_temperature": "23°C",
+        "predicted_condition": "Stormy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "37%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [75.3412, 31.1471]
+      },
+      "properties": {
+        "state": "Punjab",
+        "real_time_temperature": "24°C",
+        "real_time_condition": "Stormy",
+        "real_time_duration": "2 hours",
+        "real_time_humidity": "39%",
+        "predicted_temperature": "23°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "5 hours",
+        "predicted_humidity": "48%"
+      }
+    }
+  ]
+}
