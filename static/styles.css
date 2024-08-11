@@ -16,6 +16,7 @@ body {
 }
 
 .title {
+  font-family: 'Courier New', Courier;
   background-color: rgba(139, 69, 19, 0.6); /* Transparent brown background */
   color: white;
   text-align: center;
