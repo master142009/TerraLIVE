@@ -1,6 +1,5 @@
-import json
 import random
-from flask import Flask, render_template, send_from_directory
+from flask import Flask, render_template, jsonify, send_from_directory
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
 
@@ -24,6 +23,12 @@ def index():
     gas_levels = generate_random_gas_levels()
     air_quality = generate_random_air_quality()
     return render_template('index.html', gas_levels=gas_levels, air_quality=air_quality)
+
+@app.route('/update-data')
+def update_data():
+    gas_levels = generate_random_gas_levels()
+    air_quality = generate_random_air_quality()
+    return jsonify(gas_levels=gas_levels, air_quality=air_quality)
 
 @app.route('/static/<path:filename>')
 def serve_static(filename):
