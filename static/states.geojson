@@ -90,6 +90,222 @@
         "predicted_duration": "5 hours",
         "predicted_humidity": "48%"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.3096, 23.3441]
+      },
+      "properties": {
+        "state": "Jharkhand",
+        "real_time_temperature": "30°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "6 hours",
+        "real_time_humidity": "50%",
+        "predicted_temperature": "34°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "8 hours",
+        "predicted_humidity": "55%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.6569, 11.1271]
+      },
+      "properties": {
+        "state": "Tamil Nadu",
+        "real_time_temperature": "31°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "5 hours",
+        "real_time_humidity": "60%",
+        "predicted_temperature": "33°C",
+        "predicted_condition": "Sunny",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "58%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [93.8315, 24.6637]
+      },
+      "properties": {
+        "state": "Manipur",
+        "real_time_temperature": "22°C",
+        "real_time_condition": "Rainy",
+        "real_time_duration": "8 hours",
+        "real_time_humidity": "70%",
+        "predicted_temperature": "25°C",
+        "predicted_condition": "Stormy",
+        "predicted_duration": "10 hours",
+        "predicted_humidity": "75%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [91.7362, 26.2006]
+      },
+      "properties": {
+        "state": "Assam",
+        "real_time_temperature": "28°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "4 hours",
+        "real_time_humidity": "65%",
+        "predicted_temperature": "30°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "5 hours",
+        "predicted_humidity": "68%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92.9376, 25.5701]
+      },
+      "properties": {
+        "state": "Meghalaya",
+        "real_time_temperature": "20°C",
+        "real_time_condition": "Rainy",
+        "real_time_duration": "12 hours",
+        "real_time_humidity": "80%",
+        "predicted_temperature": "23°C",
+        "predicted_condition": "Stormy",
+        "predicted_duration": "14 hours",
+        "predicted_humidity": "85%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [88.5122, 27.533]
+      },
+      "properties": {
+        "state": "Sikkim",
+        "real_time_temperature": "16°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "7 hours",
+        "real_time_humidity": "70%",
+        "predicted_temperature": "18°C",
+        "predicted_condition": "Sunny",
+        "predicted_duration": "9 hours",
+        "predicted_humidity": "65%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [86.2029, 23.6102]
+      },
+      "properties": {
+        "state": "Bihar",
+        "real_time_temperature": "32°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "4 hours",
+        "real_time_humidity": "55%",
+        "predicted_temperature": "34°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "58%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.124, 20.9517]
+      },
+      "properties": {
+        "state": "Odisha",
+        "real_time_temperature": "33°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "5 hours",
+        "real_time_humidity": "60%",
+        "predicted_temperature": "36°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "63%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.7973, 34.0837]
+      },
+      "properties": {
+        "state": "Jammu and Kashmir",
+        "real_time_temperature": "12°C",
+        "real_time_condition": "Snowy",
+        "real_time_duration": "6 hours",
+        "real_time_humidity": "80%",
+        "predicted_temperature": "15°C",
+        "predicted_condition": "Snowy",
+        "predicted_duration": "8 hours",
+        "predicted_humidity": "85%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.9629, 20.5937]
+      },
+      "properties": {
+        "state": "Madhya Pradesh",
+        "real_time_temperature": "34°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "6 hours",
+        "real_time_humidity": "50%",
+        "predicted_temperature": "37°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "8 hours",
+        "predicted_humidity": "52%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.9462, 26.8467]
+      },
+      "properties": {
+        "state": "Uttar Pradesh",
+        "real_time_temperature": "31°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "5 hours",
+        "real_time_humidity": "65%",
+        "predicted_temperature": "34°C",
+        "predicted_condition": "Sunny",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "68%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.0193, 21.1458]
+      },
+      "properties": {
+        "state": "Nagpur",
+        "real_time_temperature": "38°C",
+        "real_time_condition": "Hot",
+        "real_time_duration": "8 hours",
+        "real_time_humidity": "30%",
+        "predicted_temperature": "41°C",
+        "predicted_condition": "Hot",
+        "predicted_duration": "10 hours",
+        "predicted_humidity": "35%"
+      }
     }
   ]
 }
