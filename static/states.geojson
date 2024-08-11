@@ -3,10 +3,7 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [77.1025, 28.7041]
-      },
+      "geometry": { "type": "Point", "coordinates": [77.1025, 28.7041] },
       "properties": {
         "state": "Delhi",
         "real_time_temperature": "34°C",
@@ -21,406 +18,22 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [75.7139, 19.7515]
-      },
-      "properties": {
-        "state": "Maharashtra",
-        "real_time_temperature": "32°C",
-        "real_time_condition": "Sunny",
-        "real_time_duration": "3 hours",
-        "real_time_humidity": "64%",
-        "predicted_temperature": "35°C",
-        "predicted_condition": "Windy",
-        "predicted_duration": "6 hours",
-        "predicted_humidity": "40%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [88.3639, 22.5726]
-      },
-      "properties": {
-        "state": "West Bengal",
-        "real_time_temperature": "24°C",
-        "real_time_condition": "Cloudy",
-        "real_time_duration": "10 hours",
-        "real_time_humidity": "45%",
-        "predicted_temperature": "27°C",
-        "predicted_condition": "Cloudy",
-        "predicted_duration": "4 hours",
-        "predicted_humidity": "41%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [77.5946, 12.9716]
-      },
-      "properties": {
-        "state": "Karnataka",
-        "real_time_temperature": "26°C",
-        "real_time_condition": "Windy",
-        "real_time_duration": "4 hours",
-        "real_time_humidity": "54%",
-        "predicted_temperature": "23°C",
-        "predicted_condition": "Stormy",
-        "predicted_duration": "6 hours",
-        "predicted_humidity": "37%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [75.3412, 31.1471]
-      },
-      "properties": {
-        "state": "Punjab",
-        "real_time_temperature": "24°C",
-        "real_time_condition": "Stormy",
-        "real_time_duration": "2 hours",
-        "real_time_humidity": "39%",
-        "predicted_temperature": "23°C",
-        "predicted_condition": "Cloudy",
-        "predicted_duration": "5 hours",
-        "predicted_humidity": "48%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [74.7973, 34.0837]
-      },
-      "properties": {
-        "state": "Jammu and Kashmir",
-        "real_time_temperature": "16°C",
-        "real_time_condition": "Snow",
-        "real_time_duration": "4 hours",
-        "real_time_humidity": "80%",
-        "predicted_temperature": "18°C",
-        "predicted_condition": "Cloudy",
-        "predicted_duration": "7 hours",
-        "predicted_humidity": "78%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [76.2673, 9.9312]
-      },
-      "properties": {
-        "state": "Kerala",
-        "real_time_temperature": "29°C",
-        "real_time_condition": "Rainy",
-        "real_time_duration": "6 hours",
-        "real_time_humidity": "72%",
-        "predicted_temperature": "31°C",
-        "predicted_condition": "Stormy",
-        "predicted_duration": "10 hours",
-        "predicted_humidity": "70%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [92.9376, 11.6670]
-      },
-      "properties": {
-        "state": "Andaman and Nicobar Islands",
-        "real_time_temperature": "28°C",
-        "real_time_condition": "Cloudy",
-        "real_time_duration": "7 hours",
-        "real_time_humidity": "85%",
-        "predicted_temperature": "30°C",
-        "predicted_condition": "Rainy",
-        "predicted_duration": "5 hours",
-        "predicted_humidity": "82%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [76.3282, 30.7333]
-      },
-      "properties": {
-        "state": "Chandigarh",
-        "real_time_temperature": "33°C",
-        "real_time_condition": "Sunny",
-        "real_time_duration": "5 hours",
-        "real_time_humidity": "55%",
-        "predicted_temperature": "35°C",
-        "predicted_condition": "Windy",
-        "predicted_duration": "7 hours",
-        "predicted_humidity": "52%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [88.6165, 27.3389]
-      },
-      "properties": {
-        "state": "Sikkim",
-        "real_time_temperature": "18°C",
-        "real_time_condition": "Cloudy",
-        "real_time_duration": "9 hours",
-        "real_time_humidity": "90%",
-        "predicted_temperature": "20°C",
-        "predicted_condition": "Rainy",
-        "predicted_duration": "6 hours",
-        "predicted_humidity": "88%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [93.7364, 24.6637]
-      },
-      "properties": {
-        "state": "Manipur",
-        "real_time_temperature": "22°C",
-        "real_time_condition": "Sunny",
-        "real_time_duration": "8 hours",
-        "real_time_humidity": "60%",
-        "predicted_temperature": "24°C",
-        "predicted_condition": "Cloudy",
-        "predicted_duration": "7 hours",
-        "predicted_humidity": "58%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [91.9882, 25.4670]
-      },
-      "properties": {
-        "state": "Meghalaya",
-        "real_time_temperature": "20°C",
-        "real_time_condition": "Rainy",
-        "real_time_duration": "10 hours",
-        "real_time_humidity": "92%",
-        "predicted_temperature": "22°C",
-        "predicted_condition": "Cloudy",
-        "predicted_duration": "8 hours",
-        "predicted_humidity": "90%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [85.3240, 27.7172]
-      },
-      "properties": {
-        "state": "Bihar",
-        "real_time_temperature": "33°C",
-        "real_time_condition": "Sunny",
-        "real_time_duration": "6 hours",
-        "real_time_humidity": "60%",
-        "predicted_temperature": "35°C",
-        "predicted_condition": "Windy",
-        "predicted_duration": "7 hours",
-        "predicted_humidity": "58%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [92.9376, 11.6670]
-      },
-      "properties": {
-        "state": "Andaman and Nicobar Islands",
-        "real_time_temperature": "28°C",
-        "real_time_condition": "Cloudy",
-        "real_time_duration": "7 hours",
-        "real_time_humidity": "85%",
-        "predicted_temperature": "30°C",
-        "predicted_condition": "Rainy",
-        "predicted_duration": "5 hours",
-        "predicted_humidity": "82%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [93.9408, 24.8507]
-      },
-      "properties": {
-        "state": "Nagaland",
-        "real_time_temperature": "19°C",
-        "real_time_condition": "Cloudy",
-        "real_time_duration": "4 hours",
-        "real_time_humidity": "85%",
-        "predicted_temperature": "21°C",
-        "predicted_condition": "Rainy",
-        "predicted_duration": "6 hours",
-        "predicted_humidity": "83%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [95.9560, 27.0844]
-      },
-      "properties": {
-        "state": "Arunachal Pradesh",
-        "real_time_temperature": "15°C",
-        "real_time_condition": "Cloudy",
-        "real_time_duration": "8 hours",
-        "real_time_humidity": "75%",
-        "predicted_temperature": "17°C",
-        "predicted_condition": "Rainy",
-        "predicted_duration": "7 hours",
-        "predicted_humidity": "73%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [93.6047, 22.3260]
-      },
-      "properties": {
-        "state": "Mizoram",
-        "real_time_temperature": "20°C",
-        "real_time_condition": "Rainy",
-        "real_time_duration": "9 hours",
-        "real_time_humidity": "80%",
-        "predicted_temperature": "22°C",
-        "predicted_condition": "Cloudy",
-        "predicted_duration": "6 hours",
-        "predicted_humidity": "78%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [77.1025, 28.7041]
-      },
-      "properties": {
-        "state": "Uttar Pradesh",
-        "real_time_temperature": "32°C",
-        "real_time_condition": "Sunny",
-        "real_time_duration": "8 hours",
-        "real_time_humidity": "55%",
-        "predicted_temperature": "34°C",
-        "predicted_condition": "Windy",
-        "predicted_duration": "10 hours",
-        "predicted_humidity": "52%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [75.8577, 22.7196]
-      },
+      "geometry": { "type": "Point", "coordinates": [78.6569, 22.7196] },
       "properties": {
         "state": "Madhya Pradesh",
-        "real_time_temperature": "29°C",
-        "real_time_condition": "Sunny",
-        "real_time_duration": "6 hours",
-        "real_time_humidity": "60%",
-        "predicted_temperature": "31°C",
-        "predicted_condition": "Windy",
-        "predicted_duration": "8 hours",
-        "predicted_humidity": "58%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [78.9629, 20.5937]
-      },
-      "properties": {
-        "state": "Chhattisgarh",
         "real_time_temperature": "30°C",
         "real_time_condition": "Cloudy",
         "real_time_duration": "7 hours",
-        "real_time_humidity": "70%",
+        "real_time_humidity": "65%",
         "predicted_temperature": "32°C",
         "predicted_condition": "Rainy",
         "predicted_duration": "9 hours",
-        "predicted_humidity": "68%"
+        "predicted_humidity": "63%"
       }
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [93.6091, 26.2006]
-      },
-      "properties": {
-        "state": "Assam",
-        "real_time_temperature": "28°C",
-        "real_time_condition": "Rainy",
-        "real_time_duration": "9 hours",
-        "real_time_humidity": "75%",
-        "predicted_temperature": "30°C",
-        "predicted_condition": "Cloudy",
-        "predicted_duration": "8 hours",
-        "predicted_humidity": "73%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [91.9882, 25.4670]
-      },
-      "properties": {
-        "state": "Tripura",
-        "real_time_temperature": "27°C",
-        "real_time_condition": "Rainy",
-        "real_time_duration": "10 hours",
-        "real_time_humidity": "80%",
-        "predicted_temperature": "29°C",
-        "predicted_condition": "Cloudy",
-        "predicted_duration": "9 hours",
-        "predicted_humidity": "78%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [88.6165, 27.3389]
-      },
-      "properties": {
-        "state": "Sikkim",
-        "real_time_temperature": "18°C",
-        "real_time_condition": "Cloudy",
-        "real_time_duration": "9 hours",
-        "real_time_humidity": "90%",
-        "predicted_temperature": "20°C",
-        "predicted_condition": "Rainy",
-        "predicted_duration": "6 hours",
-        "predicted_humidity": "88%"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [85.8245, 20.2961]
-      },
+      "geometry": { "type": "Point", "coordinates": [85.8245, 20.2961] },
       "properties": {
         "state": "Odisha",
         "real_time_temperature": "31°C",
@@ -435,17 +48,134 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [80.2707, 13.0827]
-      },
+      "geometry": { "type": "Point", "coordinates": [88.3639, 22.5726] },
       "properties": {
-        "state": "Tamil Nadu",
-        "real_time_temperature": "35°C",
+        "state": "West Bengal",
+        "real_time_temperature": "24°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "10 hours",
+        "real_time_humidity": "45%",
+        "predicted_temperature": "27°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "4 hours",
+        "predicted_humidity": "41%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [75.7139, 19.7515] },
+      "properties": {
+        "state": "Maharashtra",
+        "real_time_temperature": "32°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "3 hours",
+        "real_time_humidity": "64%",
+        "predicted_temperature": "35°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "40%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [77.5946, 12.9716] },
+      "properties": {
+        "state": "Karnataka",
+        "real_time_temperature": "26°C",
+        "real_time_condition": "Windy",
+        "real_time_duration": "4 hours",
+        "real_time_humidity": "54%",
+        "predicted_temperature": "23°C",
+        "predicted_condition": "Stormy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "37%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [74.7973, 34.0837] },
+      "properties": {
+        "state": "Jammu and Kashmir",
+        "real_time_temperature": "16°C",
+        "real_time_condition": "Snow",
+        "real_time_duration": "4 hours",
+        "real_time_humidity": "80%",
+        "predicted_temperature": "18°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "78%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [76.2673, 9.9312] },
+      "properties": {
+        "state": "Kerala",
+        "real_time_temperature": "29°C",
+        "real_time_condition": "Rainy",
+        "real_time_duration": "6 hours",
+        "real_time_humidity": "72%",
+        "predicted_temperature": "31°C",
+        "predicted_condition": "Stormy",
+        "predicted_duration": "10 hours",
+        "predicted_humidity": "70%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [85.3240, 27.7172] },
+      "properties": {
+        "state": "Bihar",
+        "real_time_temperature": "33°C",
         "real_time_condition": "Sunny",
         "real_time_duration": "6 hours",
+        "real_time_humidity": "60%",
+        "predicted_temperature": "35°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "58%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [74.7973, 31.1471] },
+      "properties": {
+        "state": "Punjab",
+        "real_time_temperature": "24°C",
+        "real_time_condition": "Stormy",
+        "real_time_duration": "2 hours",
+        "real_time_humidity": "39%",
+        "predicted_temperature": "23°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "5 hours",
+        "predicted_humidity": "48%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [92.9376, 11.6670] },
+      "properties": {
+        "state": "Andaman and Nicobar Islands",
+        "real_time_temperature": "28°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "7 hours",
+        "real_time_humidity": "85%",
+        "predicted_temperature": "30°C",
+        "predicted_condition": "Rainy",
+        "predicted_duration": "5 hours",
+        "predicted_humidity": "82%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [76.3282, 30.7333] },
+      "properties": {
+        "state": "Chandigarh",
+        "real_time_temperature": "33°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "5 hours",
         "real_time_humidity": "55%",
-        "predicted_temperature": "37°C",
+        "predicted_temperature": "35°C",
         "predicted_condition": "Windy",
         "predicted_duration": "7 hours",
         "predicted_humidity": "52%"
@@ -453,10 +183,142 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [78.6569, 22.7196]
-      },
+      "geometry": { "type": "Point", "coordinates": [93.7364, 24.6637] },
+      "properties": {
+        "state": "Manipur",
+        "real_time_temperature": "22°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "8 hours",
+        "real_time_humidity": "60%",
+        "predicted_temperature": "24°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "58%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [91.9882, 25.4670] },
+      "properties": {
+        "state": "Meghalaya",
+        "real_time_temperature": "20°C",
+        "real_time_condition": "Rainy",
+        "real_time_duration": "10 hours",
+        "real_time_humidity": "92%",
+        "predicted_temperature": "22°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "8 hours",
+        "predicted_humidity": "90%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [93.9408, 24.8507] },
+      "properties": {
+        "state": "Nagaland",
+        "real_time_temperature": "19°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "4 hours",
+        "real_time_humidity": "85%",
+        "predicted_temperature": "21°C",
+        "predicted_condition": "Rainy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "83%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [95.9560, 27.0844] },
+      "properties": {
+        "state": "Arunachal Pradesh",
+        "real_time_temperature": "15°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "8 hours",
+        "real_time_humidity": "75%",
+        "predicted_temperature": "17°C",
+        "predicted_condition": "Rainy",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "73%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [93.6047, 22.3260] },
+      "properties": {
+        "state": "Mizoram",
+        "real_time_temperature": "20°C",
+        "real_time_condition": "Rainy",
+        "real_time_duration": "9 hours",
+        "real_time_humidity": "80%",
+        "predicted_temperature": "22°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "78%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [78.9629, 20.5937] },
+      "properties": {
+        "state": "Chhattisgarh",
+        "real_time_temperature": "30°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "7 hours",
+        "real_time_humidity": "70%",
+        "predicted_temperature": "32°C",
+        "predicted_condition": "Rainy",
+        "predicted_duration": "9 hours",
+        "predicted_humidity": "68%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [91.9882, 25.4670] },
+      "properties": {
+        "state": "Tripura",
+        "real_time_temperature": "27°C",
+        "real_time_condition": "Rainy",
+        "real_time_duration": "10 hours",
+        "real_time_humidity": "80%",
+        "predicted_temperature": "29°C",
+        "predicted_condition": "Cloudy",
+        "predicted_duration": "9 hours",
+        "predicted_humidity": "78%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [78.6569, 10.0889] },
+      "properties": {
+        "state": "Tamil Nadu",
+        "real_time_temperature": "34°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "8 hours",
+        "real_time_humidity": "55%",
+        "predicted_temperature": "36°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "10 hours",
+        "predicted_humidity": "53%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.8777, 19.0760] },
+      "properties": {
+        "state": "Maharashtra",
+        "real_time_temperature": "30°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "7 hours",
+        "real_time_humidity": "60%",
+        "predicted_temperature": "32°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "5 hours",
+        "predicted_humidity": "58%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [78.6569, 22.7196] },
       "properties": {
         "state": "Madhya Pradesh",
         "real_time_temperature": "30°C",
@@ -471,20 +333,167 @@
     },
     {
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [78.6569, 10.0889]
-      },
+      "geometry": { "type": "Point", "coordinates": [78.6569, 13.0827] },
       "properties": {
-        "state": "Tamil Nadu",
+        "state": "Telangana",
+        "real_time_temperature": "32°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "6 hours",
+        "real_time_humidity": "50%",
+        "predicted_temperature": "34°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "8 hours",
+        "predicted_humidity": "48%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [76.6141, 30.7333] },
+      "properties": {
+        "state": "Haryana",
+        "real_time_temperature": "35°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "5 hours",
+        "real_time_humidity": "45%",
+        "predicted_temperature": "36°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "43%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [76.7065, 30.7611] },
+      "properties": {
+        "state": "Himachal Pradesh",
+        "real_time_temperature": "25°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "7 hours",
+        "real_time_humidity": "60%",
+        "predicted_temperature": "27°C",
+        "predicted_condition": "Rainy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "58%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [86.9824, 23.6102] },
+      "properties": {
+        "state": "Jharkhand",
+        "real_time_temperature": "32°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "6 hours",
+        "real_time_humidity": "60%",
+        "predicted_temperature": "34°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "58%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.5873, 23.0225] },
+      "properties": {
+        "state": "Gujarat",
         "real_time_temperature": "34°C",
         "real_time_condition": "Sunny",
-        "real_time_duration": "8 hours",
+        "real_time_duration": "6 hours",
         "real_time_humidity": "55%",
         "predicted_temperature": "36°C",
         "predicted_condition": "Windy",
-        "predicted_duration": "10 hours",
+        "predicted_duration": "8 hours",
         "predicted_humidity": "53%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [74.1239, 15.2993] },
+      "properties": {
+        "state": "Goa",
+        "real_time_temperature": "31°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "8 hours",
+        "real_time_humidity": "70%",
+        "predicted_temperature": "33°C",
+        "predicted_condition": "Rainy",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "68%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [70.5667, 21.1702] },
+      "properties": {
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "real_time_temperature": "30°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "7 hours",
+        "real_time_humidity": "65%",
+        "predicted_temperature": "32°C",
+        "predicted_condition": "Rainy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "63%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [73.8398, 15.4909] },
+      "properties": {
+        "state": "Goa",
+        "real_time_temperature": "31°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "8 hours",
+        "real_time_humidity": "70%",
+        "predicted_temperature": "33°C",
+        "predicted_condition": "Rainy",
+        "predicted_duration": "7 hours",
+        "predicted_humidity": "68%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [76.6491, 8.5241] },
+      "properties": {
+        "state": "Kerala",
+        "real_time_temperature": "29°C",
+        "real_time_condition": "Rainy",
+        "real_time_duration": "6 hours",
+        "real_time_humidity": "72%",
+        "predicted_temperature": "31°C",
+        "predicted_condition": "Stormy",
+        "predicted_duration": "10 hours",
+        "predicted_humidity": "70%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [79.0193, 12.1224] },
+      "properties": {
+        "state": "Puducherry",
+        "real_time_temperature": "32°C",
+        "real_time_condition": "Sunny",
+        "real_time_duration": "6 hours",
+        "real_time_humidity": "50%",
+        "predicted_temperature": "34°C",
+        "predicted_condition": "Windy",
+        "predicted_duration": "8 hours",
+        "predicted_humidity": "48%"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [72.8398, 19.0834] },
+      "properties": {
+        "state": "Lakshadweep",
+        "real_time_temperature": "28°C",
+        "real_time_condition": "Cloudy",
+        "real_time_duration": "7 hours",
+        "real_time_humidity": "75%",
+        "predicted_temperature": "30°C",
+        "predicted_condition": "Rainy",
+        "predicted_duration": "6 hours",
+        "predicted_humidity": "73%"
       }
     }
   ]
