@@ -6,28 +6,21 @@
   <title>TerraLIVE</title>
   <link rel="stylesheet" href="https://js.arcgis.com/4.12/esri/themes/light/main.css">
   <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Include Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
-    /* Flexbox container for aligning text and charts */
     .info-container {
       display: flex;
       align-items: center;
       margin-bottom: 20px;
     }
-
-    /* Chart container with consistent sizing */
     .chart-container {
       width: 100px;
       height: 100px;
       margin-left: 20px;
     }
-
-    /* Text container to separate from chart */
     .text-container {
       flex: 1;
     }
-
-    /* Ensure the charts are not scaled improperly */
     canvas {
       width: 100% !important;
       height: 100% !important;
@@ -44,44 +37,36 @@
   <section class="main-content">
     <div id="viewDiv"></div>
     <div id="info" class="info-panel">
-      
       <h3>Current Gas Levels</h3>
-      <div class="info-container gas-info" 
-           data-co2="{{ gas_levels.CO2|replace(' ppm', '') }}" 
-           data-o2="{{ gas_levels.O2|replace('%', '') }}" 
-           data-n="{{ gas_levels.N|replace('%', '') }}">
+      <div class="info-container gas-info">
         <div class="text-container">
-          <p>CO2: {{ gas_levels.CO2 }}</p>
-          <p>O2: {{ gas_levels.O2 }}</p>
-          <p>N: {{ gas_levels.N }}</p>
+          <p id="co2">CO2: {{ gas_levels.CO2 }}</p>
+          <p id="o2">O2: {{ gas_levels.O2 }}</p>
+          <p id="n">N: {{ gas_levels.N }}</p>
         </div>
         <div class="chart-container">
-          <canvas id="gasChart"></canvas> <!-- Mini Pie Chart for Gas Levels -->
+          <canvas id="gasChart"></canvas>
         </div>
       </div>
 
       <h3>Current Air Quality</h3>
-      <div class="info-container air-info" 
-           data-aqi="{{ air_quality.AQI }}" 
-           data-pm25="{{ air_quality.PM2_5|replace(' µg/m³', '') }}" 
-           data-pm10="{{ air_quality.PM10|replace(' µg/m³', '') }}" 
-           data-ozone="{{ air_quality.Ozone|replace(' ppb', '') }}">
+      <div class="info-container air-info">
         <div class="text-container">
-          <p>AQI: {{ air_quality.AQI }}</p>
-          <p>PM2.5: {{ air_quality.PM2_5 }}</p>
-          <p>PM10: {{ air_quality.PM10 }}</p>
-          <p>Ozone: {{ air_quality.Ozone }}</p>
+          <p id="aqi">AQI: {{ air_quality.AQI }}</p>
+          <p id="pm25">PM2.5: {{ air_quality.PM2_5 }}</p>
+          <p id="pm10">PM10: {{ air_quality.PM10 }}</p>
+          <p id="ozone">Ozone: {{ air_quality.Ozone }}</p>
         </div>
         <div class="chart-container">
-          <canvas id="airChart"></canvas> <!-- Mini Pie Chart for Air Quality -->
+          <canvas id="airChart"></canvas>
         </div>
       </div>
-      
     </div>
   </section>
 
   <script src="https://js.arcgis.com/4.12/"></script>
   <script>
+    // Map setup code remains unchanged
     require([
       "esri/Map",
       "esri/views/SceneView",
@@ -89,7 +74,6 @@
       "esri/layers/GeoJSONLayer",
       "esri/Basemap"
     ], function (Map, SceneView, TileLayer, GeoJSONLayer, Basemap) {
-
       const basemap = new Basemap({
         baseLayers: [
           new TileLayer({
@@ -98,9 +82,7 @@
         ]
       });
 
-      const map = new Map({
-        basemap: basemap
-      });
+      const map = new Map({ basemap: basemap });
 
       const view = new SceneView({
         container: "viewDiv",
@@ -131,9 +113,9 @@
         popup: {
           dockEnabled: true,
           dockOptions: {
-              position: "top-right",
-              breakpoint: false,
-              buttonEnabled: false
+            position: "top-right",
+            breakpoint: false,
+            buttonEnabled: false
           },
           collapseEnabled: false
         },
@@ -184,59 +166,82 @@
 
       map.layers.add(extremesLayer);
 
-      let rotating = true; // Control rotation
-      let interactionTimeout; // For tracking interaction timeout
+      let rotating = true;
+      let interactionTimeout;
 
-      // Function to rotate the 3D Earth
       function rotateEarth() {
         let angle = 0;
-
         function updateRotation() {
-          if (rotating) { // Only rotate if not interacting
-            angle += 0.2; // Adjust this value for faster or slower rotation
-
+          if (rotating) {
+            angle += 0.2;
             view.goTo({
               position: {
-                x: angle, // Longitude changes to simulate rotation
-                y: 22,    // Latitude remains constant
-                z: 40000000  // Altitude remains constant
+                x: angle,
+                y: 22,
+                z: 40000000
               }
             }, {animate: false});
           }
-
-          requestAnimationFrame(updateRotation); // Continue the rotation
+          requestAnimationFrame(updateRotation);
         }
-
-        updateRotation(); // Start the rotation
+        updateRotation();
       }
+      rotateEarth();
 
-      rotateEarth(); // Call the function to rotate the Earth
-
-      // Stop rotation on user interaction and restart after 5 seconds of inactivity
       function resetRotationTimeout() {
-        clearTimeout(interactionTimeout); // Clear any existing timeout
-        rotating = false; // Stop rotation during interaction
+        clearTimeout(interactionTimeout);
+        rotating = false;
         interactionTimeout = setTimeout(() => {
-          rotating = true; // Resume rotation after 5 seconds
-        }, 5000); // 5 seconds
+          rotating = true;
+        }, 5000);
       }
 
-      // Improved event listeners to detect interaction
-      view.on("drag", resetRotationTimeout); // Stops rotation on dragging
-      view.on("click", resetRotationTimeout); // Stops rotation on clicking
-      view.on("pointerdown", resetRotationTimeout); // Stops rotation on pointer down
-
-      // Additionally, reset the timeout on pointer move to catch all interactions
+      view.on("drag", resetRotationTimeout);
+      view.on("click", resetRotationTimeout);
+      view.on("pointerdown", resetRotationTimeout);
       view.on("pointermove", resetRotationTimeout);
     });
 
-    // JavaScript for rendering Pie Charts using Chart.js
-    window.onload = function() {
-      // Get data attributes
-      var gasInfoDiv = document.querySelector('.gas-info');
-      var airInfoDiv = document.querySelector('.air-info');
+    // Function to update gas levels and air quality values
+    function updateData() {
+      fetch('/update-data')
+        .then(response => response.json())
+        .then(data => {
+          // Update gas levels
+          document.getElementById('co2').innerText = `CO2: ${data.gas_levels.CO2}`;
+          document.getElementById('o2').innerText = `O2: ${data.gas_levels.O2}`;
+          document.getElementById('n').innerText = `N: ${data.gas_levels.N}`;
 
-      var gasData = {
+          // Update air quality
+          document.getElementById('aqi').innerText = `AQI: ${data.air_quality.AQI}`;
+          document.getElementById('pm25').innerText = `PM2.5: ${data.air_quality.PM2_5}`;
+          document.getElementById('pm10').innerText = `PM10: ${data.air_quality.PM10}`;
+          document.getElementById('ozone').innerText = `Ozone: ${data.air_quality.Ozone}`;
+
+          // Update gas chart
+          gasChart.data.datasets[0].data = [
+            parseInt(data.gas_levels.CO2.replace(' ppm', '')),
+            parseFloat(data.gas_levels.O2.replace('%', '')),
+            parseFloat(data.gas_levels.N.replace('%', ''))
+          ];
+          gasChart.update();
+
+          // Update air quality chart
+          airChart.data.datasets[0].data = [
+            data.air_quality.AQI,
+            parseFloat(data.air_quality.PM2_5.replace(' µg/m³', '')),
+            parseFloat(data.air_quality.PM10.replace(' µg/m³', '')),
+            parseInt(data.air_quality.Ozone.replace(' ppb', ''))
+          ];
+          airChart.update();
+        });
+    }
+
+    window.onload = function() {
+      const gasInfoDiv = document.querySelector('.gas-info');
+      const airInfoDiv = document.querySelector('.air-info');
+
+      const gasData = {
         labels: ["CO2", "O2", "N"],
         datasets: [{
           data: [
@@ -248,7 +253,7 @@
         }]
       };
 
-      var airData = {
+      const airData = {
         labels: ["AQI", "PM2.5", "PM10", "Ozone"],
         datasets: [{
           data: [
@@ -261,10 +266,10 @@
         }]
       };
 
-      var gasCtx = document.getElementById('gasChart').getContext('2d');
-      var airCtx = document.getElementById('airChart').getContext('2d');
+      const gasCtx = document.getElementById('gasChart').getContext('2d');
+      const airCtx = document.getElementById('airChart').getContext('2d');
 
-      new Chart(gasCtx, {
+      window.gasChart = new Chart(gasCtx, {
         type: 'pie',
         data: gasData,
         options: {
@@ -276,7 +281,7 @@
         }
       });
 
-      new Chart(airCtx, {
+      window.airChart = new Chart(airCtx, {
         type: 'pie',
         data: airData,
         options: {
@@ -287,7 +292,9 @@
           }
         }
       });
+
+      setInterval(updateData, 1000); // Update data every 5 seconds
     };
-  </script>  
+  </script>
 </body>
 </html>
